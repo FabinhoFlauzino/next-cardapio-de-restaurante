@@ -1,0 +1,24 @@
+.hero {
+  background-image: url("../../../public/assets/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 51rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--color-base-white);
+}
+
+.hero h1 {
+  font-size: 4.8rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.hero p {
+  font-size: 3rem;
+  max-width: 48rem;
+}
